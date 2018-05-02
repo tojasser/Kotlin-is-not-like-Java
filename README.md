@@ -7,9 +7,9 @@ References:
 - [Kotlin doc](http://kotlinlang.org/docs/reference/)
 - [Kotlin in action](https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296)
 
-
+Template is
 - Inspired by alhazmy13 [repo](https://github.com/alhazmy13/swift-is-like-typescript)
-- And Forked from Nilhcem [repo](https://github.com/Nilhcem/swift-is-like-kotlin)
+- Forked from Nilhcem [repo](https://github.com/Nilhcem/swift-is-like-kotlin)
 ------------
 ### To modify or developing this project
 just **fork and work**, then run these command

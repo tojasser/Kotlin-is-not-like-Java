@@ -67,8 +67,8 @@ html
         .card (.lang Java) $ pre.code $ code (@insert ../code/inheritance.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inheritance.kt)
       .case (.name "Interface") $ .pair
-        .card (.lang Java) $ pre.code $ code (@insert ../code/interfaces.java)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/interfaces.kt)
+        .card (.lang Java) $ pre.code $ code (@insert ../code/interface.java)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/interface.kt)
       .case (.name "Singletons") $ .pair
         .card (.lang Java) $ pre.code $ code (@insert ../code/singletons.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/singletons.kt)
