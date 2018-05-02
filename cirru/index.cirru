@@ -2,7 +2,7 @@ doctype
 
 html
   head
-    title "Kotlin isn't like Java"
+    title "Kotlin is not like Java"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
     link (:rel stylesheet) (:href css/highlightjs-github.css)
@@ -33,6 +33,9 @@ html
       .case (.name "Loops") $ .pair
         .card (.lang Java) $ pre.code $ code (@insert ../code/loops.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/loops.kt)
+      .case (.name "Nullity") $ .pair
+        .card (.lang Java) $ pre.code $ code (@insert ../code/nullity.java)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/nullity.kt)
       .case (.name "Try Catch") $ .pair
         .card (.lang Java) $ pre.code $ code (@insert ../code/try-catch.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/try-catch.kt)
@@ -57,7 +60,15 @@ html
       .case (.name "Usage") $ .pair
         .card (.lang Java) $ pre.code $ code (@insert ../code/usage.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/usage.kt)
+      .case (.name "Constructor") $ .pair
+        .card (.lang Java) $ pre.code $ code (@insert ../code/constructor.java)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/constructor.kt)
       .case (.name "Inheritance") $ .pair
         .card (.lang Java) $ pre.code $ code (@insert ../code/inheritance.java)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inheritance.kt)
-    
+      .case (.name "Interface") $ .pair
+        .card (.lang Java) $ pre.code $ code (@insert ../code/interfaces.java)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/interfaces.kt)
+      .case (.name "Singletons") $ .pair
+        .card (.lang Java) $ pre.code $ code (@insert ../code/singletons.java)
+        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/singletons.kt)
