@@ -11,9 +11,9 @@ else
     result = "$a bigger than $b"
 
 
-// - There is ow ternary operator in kotlin but
+// - There is no ternary operator in kotlin but
 // IF in kotlin is expression, it can return a value
 result = if (a < b ) "$b bigger than $a" else "$a bigger than $b"
 
 //Or
-result = "The biggest number is ${if(a < b) a else b}}"
+result = "The biggest number is ${if(a < b) a else b}"

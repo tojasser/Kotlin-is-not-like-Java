@@ -21,8 +21,8 @@ fun test (){
 }
 
 
-// - extension method don't allow you to break encapsulation, Unlike method defined in the class, method extension
-// don't have access to to protected and private members of the class
+// - extension method doesn't allow you to break encapsulation, Unlike method defined in the class, method extension
+// doesn't have access to to protected and private members of the class
 
 // - Under the hood, an extension function is a static method that accepts the receiver object as its first argument
 // So, When call it from java code just like top-level method, looks like this

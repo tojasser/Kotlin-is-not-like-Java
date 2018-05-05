@@ -1,4 +1,4 @@
-/ - Functions and properties can be declared directly in a file, not just as members of a class, allowing
+// - Functions and properties can be declared directly in a file, not just as members of a class, allowing
 // for a more flexible code structure.
 fun <T> joinToString(
         collection: Collection<T>,
@@ -48,7 +48,7 @@ fun args(vararg values: String){
 }
 
 
-//What is to mean in this example?
+//What is to means in this example?
 val map = mapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
 // - The word to in this line of code is a method invocation of a special kind, called an infix call.
 // - In an infix call, the method name is placed immediately between the target object name and the parameter, with
