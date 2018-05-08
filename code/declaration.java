@@ -3,6 +3,12 @@ public class Student {
     private int id;
     private String name;
 
+    public static int StudentsNumber = 0;
+
+    public static Student create(int id, String name) {
+    return new Student(id, name)
+    }
+
     public Student(int id, String name) {
         this.id = id;
         this.name = name;

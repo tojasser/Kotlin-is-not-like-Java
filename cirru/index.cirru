@@ -11,8 +11,8 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/3zcs/Kotlin-isnt-like-Java
-      img#fork-me (:src https://raw.githubusercontent.com/alhazmy13/swift-is-like-typescript/gh-pages/fork-me.png)
+      :href https://github.com/3zcs/Kotlin-is-not-like-Java
+      img#fork-me (:src https://user-images.githubusercontent.com/8222820/39740952-7d91a4b0-52a0-11e8-90d9-9e5d8bd023cc.png)
     #note
       = "Kotlin isn't like Java"
 

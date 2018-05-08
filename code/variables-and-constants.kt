@@ -28,3 +28,9 @@ language.add("kotlin")
 //this example lead to type mismatch error
 var itIsInteger = 32
 itIsInteger = "no value" //type mismatch error
+
+//What difference between val & const
+const val SUBSYSTEM_DEPRECATED: String = "This subsystem is deprecated"
+// - Top-level or member of an object
+// - Initialized with a value of type String or a primitive type
+// - No custom getter

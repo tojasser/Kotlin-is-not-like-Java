@@ -21,3 +21,13 @@ fun readNumber2 (reader : BufferedReader){
         reader.close()
     }
 }
+
+// All exceptions in Kotlin are unchecked exception.
+fun firstLetterOfYourName(letter: Char){
+    if (letter !in 'a'..'z' && letter !in 'A'..'Z')
+        throw IOException("ONE LETTER, please!")
+}
+
+fun tryFirstLetterOfYourName() {
+    firstLetterOfYourName('a')
+}
